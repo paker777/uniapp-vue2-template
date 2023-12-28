@@ -1,0 +1,44 @@
+{
+  "uni-app": {
+    "scripts": {
+      "development": {
+        "title": "微信小程序——开发环境",
+        "env": {
+          "ENV_TYPE": "development",
+          "UNI_PLATFORM": "mp-weixin",
+          "VUE_APP_BASE_URL": "http://8.134.167.147:8080/blkjoa-api"
+        }
+      },
+      "production": {
+        "title": "微信小程序——正式环境",
+        "env": {
+          "ENV_TYPE": "production",
+          "UNI_PLATFORM": "mp-weixin",
+          "VUE_APP_BASE_URL": "https://ecp.polinked.com:8080/blkjoa-api"
+        }
+      }
+    }
+  },
+  "name": "jszl-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint . --ext .vue,.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.23.3",
+    "@types/html5plus": "^1.0.5",
+    "@types/uni-app": "^1.4.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-vue": "^9.19.2",
+    "prettier": "^3.1.1"
+  }
+}
