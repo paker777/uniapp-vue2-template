@@ -5,6 +5,9 @@ import Vue from 'vue'
 import './uni.promisify.adaptor'
 Vue.config.productionTip = false
 App.mpType = 'app'
+
+import share from './utils/share.js'
+Vue.mixin(share)
 const app = new Vue({
   ...App
 })
