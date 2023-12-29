@@ -50,7 +50,22 @@
       "postcss": true
     },
     "lazyCodeLoading": "requiredComponents",
-    "usingComponents": true
+    "usingComponents": true,
+    "plugins": {
+      "subway": {
+        "version": "1.0.13",
+        "provider": "wx6aaf93c4435fa1c1"
+      },
+      "kdzs-plugin": {
+        "version": "1.0.3",
+        "provider": "wx24b8e8aa7f0c5bcf"
+      }
+    },
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序定位"
+      }
+    }
   },
   "mp-alipay": {
     "usingComponents": true
